@@ -8,8 +8,10 @@
       
       h3 {
           color: red;
+          border: 2px solid;
       }
       
       li {
           color: orange;
+          background-color: rgb(234, 43, 90);
       }
