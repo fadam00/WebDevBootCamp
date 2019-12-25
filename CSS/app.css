@@ -10,8 +10,22 @@
           color: red;
           border: 2px solid;
       }
+      /* Element */
       
       li {
           color: orange;
           background-color: rgb(234, 43, 90);
       }
+      /* ID */
+      
+      #homework {
+          border: 3px solid;
+          font-size: large;
+          background-color: sandybrown;
+      }
+      /* Class */
+      
+      .todoli {
+          text-decoration: line-through;
+      }
+      /* Star */
