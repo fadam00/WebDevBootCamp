@@ -1,0 +1,11 @@
+/* Inheritance - the child elements inherit the attributes of the parent element */
+
+
+/* When CSS is applied to ul, the li will also be affected */
+
+ul {
+    color: purple;
+}
+
+
+/* Specificity - As you apply CSS to elements down the page, they'll become specific hence ignoring the inheritance  */
