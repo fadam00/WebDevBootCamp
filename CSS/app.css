@@ -28,4 +28,31 @@
       .todoli {
           text-decoration: line-through;
       }
-      /* Star */
+      /* Star -- applies to the whole page */
+      
+      * {
+          border: 1px solid
+      }
+      /* Descendent - select everything INSIDE of an element */
+      /* This selects every anchor tag inside of an li */
+      
+      li a {
+          color: red;
+      }
+      /* Adjecent - Select siblings of an element (right after it on the same level) */
+      /* This selects the ul's right after h4 on the same level */
+      
+      h4+ul {
+          border: 4px solid blue;
+      }
+      /* Attribute Selectors */
+      /* Selects anchor tags with the URL shown and applies CSS */
+      
+      a[href="http://www.google.com"] {
+          background-color: blue;
+      }
+      /* Selects the specific type of the input tag */
+      
+      input[type="text"] {
+          border: 6px solid orange;
+      }
