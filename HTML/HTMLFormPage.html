@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Form!</title>
+</head>
+<body>
+    <h1>Log In</h1>
+
+    <!-- action - where the form sends data to -->
+    <!-- method - what HTTP method (get/post) -->
+
+    <form>
+        <label for="username">Username:</label>
+        <!-- required is used to ensure field isn't empty -->
+        <input id="username" type="email" placeholder="email" required> 
+        <!-- validation by type such as email ensure proper format is followed for type -->
+        <label>Password:<input type="password" placeholder="password" required></label>
+        <input type="submit">
+    </form>
+
+    <form>
+        <label for="dogs">Dogs:</label>
+        <!-- To pass on value of radio button to URL you must add value attribute -->
+        <input name="petChoice" id="dogs" type="radio" value="dog">
+
+        <label for="cats">Cats:</label>
+        <input name="petChoice" id="cats" type="radio" value="cat">
+
+        <p>What's your favorite color?</p>
+        <!-- To pass on the value for the URL with drop-down menus or select tags simply add the name attribute
+        and it'll pass the selected option as the value -->
+        <!-- Add the value attribute to each option if you'd like to pass on something different than the text on the option tag -->
+        <select name="color">
+            <option>Green</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+
+        <input type="text">
+        <textarea rows="10" cols="10" name="paragraph"></textarea>
+        
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
