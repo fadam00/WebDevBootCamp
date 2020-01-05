@@ -1,0 +1,22 @@
+
+p{
+/* Content - Width and Height*/
+
+width: 50%; /*50% of the parent element -- very useful for responsive web design*/
+
+/*Border */
+
+border: 2px solid blue;
+/* border-top: 10px; */
+
+/*Padding */
+
+padding: 100px;
+/* padding-left: 50px; */
+
+/*Margin*/
+
+margin: 100px;
+
+/* setting margin to '0 auto 0 auto' or '0 auto' top left bottom right you'll center the element */
+}
