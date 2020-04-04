@@ -2,9 +2,3 @@
     background: url("/Projects/PatternProject/images/patternheader.jpg") center center /  cover no-repeat 
 }
 
-.image {
-    width: 100%;
-    height: 250px;
-    background-size: cover;
-    background-position: center;
-  }
