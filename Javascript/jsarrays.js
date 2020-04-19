@@ -30,6 +30,16 @@ fruits = ["strawberry", "mangoes", "orange", "lemon"];
 
 var citrus = fruits.slice(3,4);
 
+//Array Exercises
+//Nested Arrays
+var friendGroups = [
+    ["Harry", "Ron", "Hermione"],
+    ["Malfoy", "Crabbe", "Goyle"],
+    ["Mooney", "Wormtail", "Prongs"]
+];
+
+console.log(friendGroups[2][0]) // returns "Mooney"
+
 
 
 
