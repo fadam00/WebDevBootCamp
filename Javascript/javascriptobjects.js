@@ -42,3 +42,13 @@ var junkObject = {
 };
 
 console.log(junkObject);
+
+//Object Methods
+
+var cat = {};
+
+cat.speak = function () {
+    return "meow";
+}
+
+cat.speak();
